@@ -1,0 +1,6 @@
+# Toronto Open Data Catalogue - Neighbourhood Profiles 2016 (CSV)
+# https://www.toronto.ca/city-government/data-research-maps/open-data/open-data-catalogue/#8c732154-5012-9afe-d0cd-ba3ffc813d5a
+
+csv_path='https://www.toronto.ca/ext/open_data/catalog/data_set_files/2016_neighbourhood_profiles.csv'
+df = pd.read_csv(csv_path,encoding='latin1')
+print('Data loaded')
